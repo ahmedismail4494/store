@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ahmedismail4494.github.io/store/",
   "name": "store-clothes",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -24,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
