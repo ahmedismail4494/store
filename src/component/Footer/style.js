@@ -23,5 +23,8 @@ export const FooterPage = styled.div`
   @media (max-width: 991.98px) { 
     font-size: 25px;
   }
-
+`
+export const Text = styled.p`
+  text-align: center;
+  margin: 0 auto;
 `

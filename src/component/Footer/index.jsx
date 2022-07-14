@@ -1,12 +1,12 @@
 import React from 'react';
-import { FooterPage } from "./style.js";
+import { FooterPage, Text } from "./style.js";
 
 const Footer = () => {
   return (
     <FooterPage>
-      <p>
+      <Text>
         Created By Ahmed Ismail 2022
-      </p>
+      </Text>
     </FooterPage>
   )
 }
