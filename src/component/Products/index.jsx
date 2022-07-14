@@ -57,7 +57,7 @@ const Products = () => {
                 return(
                   <div className='m-4'>
                     <Card className=" h-100 text-center " >
-                      <img className="card-img-top p-3" src={product.image} alt="Card image cap" height="250px" />
+                      <img className="card-img-top p-3" src={product.image} alt="Card image cap" height="300px" />
                       <div className="card-body">
                         <h5 className="card-title">{product.title.substring(0,12)}...</h5>
                         <p className="card-text h4 "> $ {product.price} </p>
