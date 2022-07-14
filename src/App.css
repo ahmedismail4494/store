@@ -16,6 +16,9 @@
   color: #fff !important;
   font-weight: bolder;
   border-radius: 10px;
+
+  background-size: cover;
+  background-position: center;
 }
 
 

@@ -12,6 +12,8 @@ export const HomePage = styled.div`
 
 export const Image = styled.img`
   height: 100vh;
+  background-size: cover;
+  background-position: center;
 
   @media (max-width: 767.98px) { 
     height: 60vh;
