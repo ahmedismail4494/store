@@ -4,10 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Add bootstrap After npm i bootstrap
+import "bootstrap/dist/js/bootstrap";
+import "bootstrap/js/src/collapse.js";
+import "bootstrap/dist/js/bootstrap.min.js";
+import 'bootstrap/dist/js/bootstrap.bundle';
+
+import store from './redux/store';
+import { Provider } from 'react-redux';
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
 
