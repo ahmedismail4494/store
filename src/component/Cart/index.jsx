@@ -16,7 +16,7 @@ const Cart = () => {
       <>
         <div className='row m-auto py-4 bg-light'>
           <div className='col-md-6 m-auto'>
-            <img  src={product.image} alt={product.title} height='400px' width='400px' />
+            <img  src={product.image} alt={product.title} height='400px' width='100%' />
           </div>
 
           <div className='col-md-6 m-auto'>
